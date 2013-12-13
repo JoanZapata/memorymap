@@ -10,14 +10,14 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <link rel="icon" type="image/png" href="images/a14d6bd2.favicon.png">
-    <link rel="apple-touch-icon" href="images/6d8786ea.apple-touch-favicon.png">
+    <link rel="icon" type="image/png" href="images/favicon.png">
+    <link rel="apple-touch-icon" href="images/apple-touch-favicon.png">
     <title>Memory Map</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width">
     <!-- Place favicon.ico and apple-touch-icon.png in the root directory --><!-- build:css(.tmp) styles/main.css -->
-    <link rel="stylesheet" href="styles/35dc332c.main.css">
-    <script src="scripts/vendor/d41d8cd9.modernizr.js"></script>
+    <link rel="stylesheet" href="styles/main.css">
+    <!-- endbuild --><!-- build:js scripts/vendor/modernizr.js -->
     <script src="bower_components/modernizr/modernizr.js"></script>
     <!-- endbuild -->
 </head>
@@ -28,20 +28,27 @@
 <div class="global">
 
     <div class="row header">
-        <div class="inner-row">
+        <div class="inner-row centered">
 
-            <div class="text">
+            <img class="illustration" src="images/main-picture.png">
 
-                <div class="highlighted">
-                    <h2><img src="images/42fe3671.logo.png" alt="">Memory Map</h2>
-                </div>
-
-                <p><span>Effective disk cleaner</span></p>
-
+            <div class="text memorymap">
+                <h2><img class="logo" src="images/logo.png"><br>Memory Map</h2>
             </div>
 
 
-            <img class="illustration" src="images/0a35643a.main-picture.png">
+            <div class="clearfix">&nbsp;</div>
+        </div>
+    </div>
+
+    <div class="row right">
+        <div class="inner-row">
+            <div class="text">
+                <h2><i class="icon-trello"></i> Unique view</h2>
+                <p>Memory Map displays a big map of <strong>all</strong> your files. The bigger a file or a folder appears on the screen, the heavier it is on
+                    the file system.</p>
+            </div>
+            <img class="illustration" src="images/device1_mockup.png">
 
             <div class="clearfix">&nbsp;</div>
         </div>
@@ -51,40 +58,10 @@
         <div class="inner-row">
             <div class="text">
                 <h2><i class="icon-resize-full"></i> Infinitely zoomable</h2>
-
-                <p>Memory Map displays a big <strong>map</strong> of your files. The bigger a file or a folder appears on the screen, the heavier it is on the
-                    file system. This view is infinitely zoomable, even the tiniest files are represented! </p>
+                <p>Of course, all your files can't fit at the same time on a phone screen. See all the tiniest files appear as you move your
+                    fingers on the screen!</p>
             </div>
-            <img class="illustration" src="images/e8e5184d.capture5_screen.png">
-
-            <div class="clearfix">&nbsp;</div>
-        </div>
-    </div>
-
-    <div class="row right">
-        <div class="inner-row">
-            <div class="text">
-                <h2><i class="icon-film"></i> In-app preview</h2>
-
-                <p>Your <strong><i class="icon-facetime-video"></i> videos</strong>, <strong><i class="icon-picture"></i> images</strong>, <strong><i class="icon-music"></i> musics</strong>... All of these can be previewed directly
-                    from Memory Map. Don't waste time switching apps!</p>
-            </div>
-            <img class="illustration" src="images/932607eb.capture3_screen.png">
-
-            <div class="clearfix">&nbsp;</div>
-        </div>
-    </div>
-
-    <div class="row left">
-        <div class="inner-row">
-
-            <div class="text">
-                <h2><i class="icon-folder-open-alt"></i>Folder composition</h2>
-
-                <p>What best characterizes a folder is its <strong>content</strong>, that's why Memory Map displays a nice chart for any folder you're
-                    analyzing.</p>
-            </div>
-            <img class="illustration" src="images/f2c6ec79.capture4_screen.png">
+            <img class="illustration" src="images/device2_mockup.png">
 
             <div class="clearfix">&nbsp;</div>
         </div>
@@ -95,11 +72,74 @@
 
             <div class="text">
                 <h2><i class="icon-search"></i> Quick search</h2>
-
-                <p>You know exactly what file or folder you're looking for and you don't want to waste time looking for it in the big map? Use the quick search
-                    feature, accessible any time.</p>
+                <p>Looking for a particular file on this big map can be exhausting, that's why you can quickly search for a file, typing a part of its name.</p>
             </div>
-            <img class="illustration" src="images/d0da1d51.capture6_screen.png">
+            <img class="illustration" src="images/device3_mockup.png">
+
+            <div class="clearfix">&nbsp;</div>
+        </div>
+    </div>
+
+    <div class="row left">
+        <div class="inner-row">
+            <div class="text">
+                <h2><i class="icon-file"></i> Color by file types</h2>
+                <p>This coloration mode is perfect when you need to see where and how are the different file types distributed on your disk.</p>
+            </div>
+            <img class="illustration" src="images/device4_mockup.png">
+
+            <div class="clearfix">&nbsp;</div>
+        </div>
+    </div>
+
+    <div class="row right">
+        <div class="inner-row">
+            <div class="text">
+                <h2><i class="icon-time"></i> Color by last modification date</h2>
+                <p>That's a very good way to find old and unused files on your file system. Very old files are red, maybe you should consider trashing them!</p>
+            </div>
+            <img class="illustration" src="images/device5_mockup.png">
+
+            <div class="clearfix">&nbsp;</div>
+        </div>
+    </div>
+
+    <div class="row left">
+        <div class="inner-row">
+            <div class="text">
+                <h2><i class="icon-adjust"></i> High contrast mode</h2>
+                <p>Use this mode when you need to see clearly being outside in a very bright light.</p>
+            </div>
+            <img class="illustration" src="images/device6_mockup.png">
+
+            <div class="clearfix">&nbsp;</div>
+        </div>
+    </div>
+
+    <div class="row right">
+        <div class="inner-row">
+            <div class="text">
+                <h2><i class="icon-eye-open"></i> In-app preview</h2>
+
+                <p>Your <strong>videos</strong>, <strong>images</strong>, <strong>musics</strong>... All of these can be previewed directly
+                    from Memory Map. Don't waste time switching apps!</p>
+            </div>
+            <img class="illustration" src="images/capture3_screen.png">
+
+            <div class="clearfix">&nbsp;</div>
+        </div>
+    </div>
+
+    <div class="row left">
+        <div class="inner-row">
+
+            <div class="text">
+                <h2><i class="icon-folder-open-alt"></i> Folder composition</h2>
+
+                <p>What best characterizes a folder is its <strong>content</strong>, that's why Memory Map displays a nice chart for any folder you're
+                    analyzing.</p>
+            </div>
+            <img class="illustration" src="images/capture4_screen.png">
 
             <div class="clearfix">&nbsp;</div>
         </div>
@@ -108,7 +148,7 @@
     <div class="row footer">
         <div class="filter"></div>
         <div class="inner-row centered">
-            <h2>Now available for free</h2>
+            <h2>Available for free</h2>
             <br>
 
             <a class="google-play-link" href="https://play.google.com/store/apps/details?id=com.jzap.memorymap">
@@ -118,12 +158,16 @@
     </div>
 
     <div class="copyright">
-        Design and development by <a href="https://twitter.com/JoanZap">Joan Zapata</a> © 2013
+        Design and development by Joan Zapata © 2013<br>
+        <a href="http://joanzapata.com/"><i class="icon-globe"></i> joanzapata.com</a><br>
+        <a href="https://twitter.com/JoanZap"><i class="icon-twitter"></i> twitter.com/JoanZap</a>
     </div>
 </div>
 
 
-<script src="scripts/1137e1f5.vendor.js"></script>
+<!-- build:js scripts/vendor.js --><!-- bower:js -->
+<script src="bower_components/jquery/jquery.js"></script>
+<!-- endbower --><!-- endbuild -->
 
 <script>
     (function (i, s, o, g, r, a, m) {
@@ -142,6 +186,5 @@
     ga('send', 'pageview');
 </script>
 
-<script data-main="scripts/d3b6a7fc.main" src="bower_components/requirejs/require.js"></script>
 </body>
 </html>
